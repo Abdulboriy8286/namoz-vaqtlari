@@ -32,11 +32,11 @@ body{
 }
 
 .kun b{
-    font-size: 34px;
+    font-size: 36px;
 }
 
 .kun p{
-    font-size: 30px;
+    font-size: 34px;
 }
 
 .vaqt{
@@ -46,13 +46,13 @@ body{
 }
 
 .vaqt p{
-    font-size: 30px;
+    font-size: 45px;
     font-weight: bold;
     text-shadow: 2px 2px 4px #000000;
 }
 
-@media all(max-width: 414px){
-    body{
-        padding: 0;
+@media only screen and (max-width: 414px) {
+    body {
+      padding: 50px 30px;
     }
-}
+  }
