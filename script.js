@@ -6,7 +6,6 @@ if(navigator.geolocation){
         fetch(`https://api.pray.zone/v2/times/today.json?latitude=${latitude}&longitude=${longitude}`)
         .then((response) => response.json())
         .then(data=>{
-            console.log(data)
             let dates = data.results.datetime[0]
             const html =`
             <div class="vaqtlar">
