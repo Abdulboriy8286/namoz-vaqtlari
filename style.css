@@ -48,6 +48,11 @@ body{
 .vaqt p{
     font-size: 30px;
     font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
 }
 
-@media all(max-width: )
+@media all(max-width: 414px){
+    body{
+        padding: 20px;
+    }
+}
