@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: url("./Islam-Wallpapers-1024x640.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:50px;
+}
+
+.container{
+    height: 100%;
+}
+
+.vaqtlar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.kun{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.kun b{
+    font-size: 34px;
+}
+
+.kun p{
+    font-size: 30px;
+}
+
+.vaqt{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.vaqt p{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+@media all(max-width: )
