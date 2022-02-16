@@ -53,6 +53,6 @@ body{
 
 @media all(max-width: 414px){
     body{
-        padding: 20px;
+        padding: 10px;
     }
 }

@@ -19,10 +19,6 @@ if(navigator.geolocation){
                     <p>${data.results.datetime[0].times.Fajr}</p>
                 </div>
                 <div class="vaqt">
-                    <p>Quyosh</p>
-                    <p>${data.results.datetime[0].times.Sunset}</p>
-                </div>
-                <div class="vaqt">
                     <p>Peshin</p>
                     <p>${data.results.datetime[0].times.Dhuhr}</p>
                 </div>
